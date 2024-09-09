@@ -1,0 +1,9 @@
+# Virtual environment
+myenv/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
