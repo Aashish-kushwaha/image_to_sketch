@@ -22,10 +22,19 @@ To run the project locally, follow these steps:
 git clone https://github.com/Aashish-kushwaha/image_to_sketch.git
 
 cd image_to_sketch
+```
 
 2. **Create and activate a virtual environment**
 ```bash
 python -m venv myenv
 source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+```
 
-
+3. **Install the required dependencies**
+```bash
+pip install -r requirements.txt
+```
+4. **Run the Streamlit app**
+```bash
+streamlit run app.py
+```
