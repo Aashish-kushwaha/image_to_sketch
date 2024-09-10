@@ -1,0 +1,24 @@
+# Image to Sketch Converter
+
+A simple web application that convert an image into a sketch using OpenCV and Streamlit.
+
+## Feature
+- Upload an image ('jpg','jpeg', or 'png' formats supported)
+- Converts the uploaded image into a pencil sketch
+- Displays both the original image and the converted image
+- download the converted sketch as a PNG file
+
+## Built With
+
+- [OpenCV](https://opencv.org/) - Used for image processing
+- [Streamlit](https://streamlit.io/) - Fast and easy to create a web app
+- [Pillow](https://python-pillow.org/) - Image manipulation library
+
+## Installation
+
+To run the project locally, follow these steps:
+1. **Clone the repository**
+```bash
+git clone https://github.com/Aashish-kushwaha/image_to_sketch.git
+
+cd image_to_sketch
