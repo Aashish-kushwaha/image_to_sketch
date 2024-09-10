@@ -22,3 +22,8 @@ To run the project locally, follow these steps:
 git clone https://github.com/Aashish-kushwaha/image_to_sketch.git
 
 cd image_to_sketch
+
+2. **Create and activate a virtual environment**
+```bash
+python -m venv myenv
+source myenv/bin/activate  # On Windows: myenv\Scripts\activate
